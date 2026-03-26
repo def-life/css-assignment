@@ -1,0 +1,69 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+
+:root {
+  --secondary-text-color: #737373;
+  --primary-text-color: #252b42;
+  --primary-color: #96bb7c;
+  --light-text-color: #ffffff;
+  --primary-bg: #FDF3F1;
+  --danger-color: #E74040;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+}
+
+
+.btn-brand {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 28px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+.btn-brand:hover {
+  background-color: var(--primary-color);
+  color: white;
+  transform: translateY(-1px);
+}
+
+.btn-brand-outline {
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  border-radius: 8px;
+  padding: 10px 28px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+.btn-brand-outline:hover {
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  border-radius: 8px;
+  padding: 10px 28px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+
+.section-padding {
+  padding: 80px 0;
+}
+
+
+.slick-track {
+  padding-bottom: 30px;
+}
+
+.section {
+  max-width: 1050px;
+  margin: 0 auto;
+}
+

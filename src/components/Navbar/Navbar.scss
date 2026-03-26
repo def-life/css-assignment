@@ -1,0 +1,63 @@
+.navbar-custom {
+    padding: 16px 0;
+
+    @media (min-width: 992px) {
+        max-width: 1150px;
+        margin: 0 auto;
+    }
+
+
+    .nav-link-custom-container {
+        @media (min-width: 992px) {
+            margin-left: 60px;
+        }
+
+        @media (min-width: 1200px) {
+            margin-left: 65px;
+        }
+
+        @media (min-width: 1400px) {
+            margin-left: 110px;
+        }
+    }
+
+    .brand-name {
+        font-weight: 700;
+        font-size: 1.3rem;
+        color: var(--primary-text-color);
+        text-decoration: none;
+
+        @media (min-width: 992px) {
+            margin-left: 60px;
+        }
+    }
+
+    .nav-link-custom {
+        text-decoration: none;
+        color: var(--secondary-text-color);
+    }
+
+    .nav-btn-link-button {
+        text-decoration: none;
+        color: var(--secondary-text-color);
+        font-weight: 500;
+        padding: 8px 0;
+    }
+
+    .login-button {
+        text-decoration: none;
+        color: var(--primary-color);
+        font-weight: 600;
+        ;
+    }
+
+    .join-us-button {
+            margin-left: 40px;
+    }
+
+    .text-strong-small {
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 24px;
+    }
+}

@@ -1,0 +1,75 @@
+.courses-cta {
+  @media (max-width: 992px) {
+    padding-left: 8px;
+  }
+
+  &__content {
+    max-width: 600px;
+    ;
+
+  }
+
+  &__subtitle {
+    display: inline-block;
+    font-size: 14px;
+    color: var(--primary-color);
+    margin-bottom: 8px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+  }
+
+  &__title {
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: var(--primary-text-color);
+
+    @media (max-width: 576px) {
+      font-size: 22px;
+    }
+  }
+
+  &__desc {
+    color: var(--secondary-text-color);
+    margin-bottom: 50px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    line-height: 20px;
+
+  }
+
+  &__form {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: flex-start;
+
+    @media (max-width: 576px) {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  }
+
+  &__input-group {
+    flex: 1;
+    width: 100%;
+
+    input {
+      border-radius: 8px;
+      padding: 10px 16px;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.error-text {
+  color: var(--danger-color);
+  font-size: 0.8rem;
+  margin-top: 4px;
+}
+
+.success-text {
+  color: var(--primary-color);
+  font-size: 0.8rem;
+  margin-top: 4px;
+}
